@@ -26,7 +26,7 @@ export default function Widget() {
 
   return (
     <div className="p-4 bg-white shadow-md rounded-lg w-full">
-      <h1 className="text-lg font-bold">Monday.com Widget</h1>
+      <h1 className="text-lg text-yellow-300 font-bold">Monday.com Widget</h1>
       <p className="text-gray-600">Board: {context?.boardName || "Loading..."}</p>
       <ul className="mt-2">
         {items.map((item) => (
